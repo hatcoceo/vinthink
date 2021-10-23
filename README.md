@@ -1,2 +1,2 @@
 
-Project about think
+Project about thinking
