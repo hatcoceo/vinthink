@@ -1,16 +1,11 @@
 <?php 
 
 require 'condb.php';
- ?>
- <?php 
 
    if (isset($_GET['id'])) {
      $id = $_GET['id'];
-     
    }
 
-  ?>
- <?php 
   if (isset($_POST['sua'])) {
     $hien_tai = $_POST['hien_tai'];
     $thanh_phan = $_POST['thanh_phan'];
@@ -21,8 +16,7 @@ require 'condb.php';
     if ($hien_tai =="" && $thanh_phan == "" && $nguoc_lai =="" && $khong_can =="" && $tang_giam =="" && $ket_hop =="") {
       //echo "vui long nhap du lieu";
       header('location:bindex.php');
-    }else
-    {
+    } else {
     $sql = "UPDATE hoc_lap_trinh SET hien_tai ='$hien_tai', thanh_phan ='$thanh_phan', nguoc_lai ='$nguoc_lai', khong_can = '$khong_can', tang_giam = '$tang_giam', ket_hop = '$ket_hop' WHERE id = '$id'";
     $qr = mysqli_query($connect, $sql);
     header('location:bindex.php');
