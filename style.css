@@ -1,0 +1,62 @@
+@media only screen and (max-width: 600px) {
+    
+
+    
+    * {
+        color: black;
+        font-size: 15px;
+        
+    }
+    table{
+    	height: auto;
+    	width: 350px;
+    	color: red;
+    	
+    	border-collapse: collapse;
+    }
+    table td {
+        padding: 3px 0px 3px 3px;
+      
+      font-size: 12px;
+    }
+    
+    a {
+         font-size: 12px;
+         text-decoration: none;
+         color: green;
+    }
+    button {
+    	height: 20px;
+    	width: auto;
+    	font-size: 15px;
+    	margin-top: 40px ;
+    	margin-bottom: 40px;
+    	padding: 0 10px;
+    }
+    textarea {
+    	width: 350px;
+    	height: 250px;
+    	margin-top: 15px;
+    	border: 1px solid black;
+    	font-size: 15px;
+    	padding-left: 12px;
+    }
+    input {
+    
+    	height: 20px;
+    	width: 60px;
+    	font-size: 15px;
+    	padding-left: 3px;
+    	outline: none;
+    	border: 1px solid black;
+    }
+    .mo_ta {
+	margin-top: 7px;
+	margin-bottom: 7px;
+  }
+   .luot_thich {
+	margin-top: 7px;
+	margin-bottom: 7px;
+   }
+  
+}
