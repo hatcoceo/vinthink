@@ -109,8 +109,6 @@ require 'condb.php';
  
  <?php 
 require 'footer.php';
-
-
  ?>
  
- 
+
